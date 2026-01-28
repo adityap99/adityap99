@@ -19,27 +19,31 @@ I bring **5+ years of industry experience** working on production Software Engin
 
 ## 💼 Professional Experience
 
-### **Infocusp Innovations** — Software Engineer 2  
-**Client: Google X (Moonshot Factory)** | *Jan 2022 – Jun 2025*
+### **Infocusp Innovations** — Software Engineer 2 | *Dec 2022 – Jun 2025*
+**Client: Google X (Moonshot Factory)**
 
-- Built **multi-tenant hazard risk forecasting models** (1–5 year horizons) for heatwaves and wildfires using geospatial data
-- Achieved **PR-AUC 0.96** (seismic classification) and **Dice 0.73** (S-wave segmentation) on DAS sensor data
-- Reduced experiment analysis runtime from **4 hours → 20 minutes**
-- Scaled ingestion pipelines using **Google Earth Engine, Pub/Sub, and GCP buckets**
-- Reduced class-skew-induced model drift from **24% → 1%**
-- Added explainability with **SHAP, Grad-CAM, reliability curves**
-- Mentored junior engineers; increased test coverage from **56% → 100%**
+- Developed **multi-tenant hazard risk forecasting models** (1-, 2-, and 5-year) for heatwaves and wildfires across multiple regions; applied classical ML and deep learning algorithms on geospatial data, worked on the full pipeline from data ingestion (GEE, GCP) through modeling and explainability.
+- Achieved **PR-AUC 0.96** in seismic activity classification and **Dice 0.73** in S-wave picking (segmentation) using DAS sensor data; introduced noise-robust training strategies for improved generalization.
+- Accelerated model analysis pipelines, cutting experiment analysis execution time from **4 hours to 20 minutes**.
+- Scaled geospatial data ingestion and processing using **Google Earth Engine, Pub/Sub, and GCP buckets**.
+- Optimized data loading/batching to reduce class skew-induced drift from **24% to 1%**.
+- Enhanced model interpretability with **SHAP, Grad-CAM, prediction histograms, and reliability curves**.
+- Collaborated with climate scientists and implemented feature engineering for ML models. Mentored 3 junior engineers on best practices, improving repository code quality and increasing test coverage from **56% to 100%**.
 
----
+**Client: Google Research**
 
-### **Infocusp Innovations** — Software Engineer  
-**Client: Google Research** | *May 2020 – Dec 2021*
+- Owned, architected, and implemented product features and data pipelines for a **language learning platform** with **150K+ daily impressions** across India, LatAm, and Indonesia. Featured on the **Google Search results and Search Labs**.
+- Diagnosed p99 latency regressions in a performance-sensitive API and refactored the critical path, achieving **~30% latency reduction**.
 
-- Owned product features and data pipelines for a **language learning platform** with **150K+ daily impressions**
-- Platform featured on **Google Search results and Search Labs**
-- Designed notification cron jobs; reduced runtime from **5 hours → 40 minutes**
-- Built **gRPC microservices in C++**
-- Diagnosed and fixed p99 latency regressions, achieving **~30% latency reduction**
+### **Infocusp Innovations** — Software Engineer 1 | *May 2020 – Dec 2022*
+**Client: Google Research**
+
+- Designed and implemented a notification cron-job for personalized communication across multiple channels. Introduced multi-threading and other optimizations to reduce processing time from **5 hours to 40 minutes**.
+- Built scalable **gRPC microservices and API endpoints in C++** for the consumer app.
+
+**Client: Bryte Labs**
+
+- **Built an end-to-end pipeline** for biometric data ingestion, validation, visualization, cleanup, and modelling.
 
 ---
 ## 🧩 Work Portfolio
