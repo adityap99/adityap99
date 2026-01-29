@@ -109,7 +109,7 @@ A selection of real-world products and platforms I’ve contributed to through i
 - Built the **full training pipeline** from scratch: memory-mapped data loading, batching, AdamW optimization, gradient clipping, checkpointing, and cosine learning rate scheduling.
 - Trained a ~**17M parameter model** on the **TinyStories** dataset, achieving **≤ 1.8 validation loss**, with further improvements at higher token budgets.
 - Implemented **autoregressive decoding** with temperature scaling and **top-p (nucleus) sampling** for text generation.
-- (Optional) Implemented a **byte-level BPE tokenizer** with custom merge rules, encoding, and decoding.
+- Implemented a **byte-level BPE tokenizer** with custom merge rules, encoding, and decoding.
 - Passed a comprehensive **pytest-based test suite** covering attention, normalization, transformer blocks, training, and inference.
 
 **Tech:** PyTorch, Transformers, RoPE, RMSNorm, SwiGLU, AdamW, CUDA, Pytest
